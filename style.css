@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+header {
+    background-color: blue;
+    text-align: center;
+}
+nav {
+    background-color: black;
+}
+
+a {
+    color: white;
+}
+.mercedes{
+    width: auto;
+    height: 400px;
+    background-image: url(imagem/carro-importado-02.jpeg);
+    background-attachment: fixed;
+    background-position: top left;
+    background-size: cover;
+}
