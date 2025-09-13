@@ -11,6 +11,15 @@ nav {
 a {
     color: white;
 }
+
+main {
+    height: 1000px;
+}
+
+p {
+    color: white;
+}
+
 .mercedes{
     width: auto;
     height: 400px;
@@ -18,4 +27,36 @@ a {
     background-attachment: fixed;
     background-position: top left;
     background-size: cover;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.4em;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+thead {
+    background-color: grey;
+}
+
+th, td {
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+iframe {
+    padding: 20px;
+}
+
+footer {
+    border: 1px solid black;
+    width: 300px;
+
 }
